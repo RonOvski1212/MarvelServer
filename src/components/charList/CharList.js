@@ -77,7 +77,6 @@ const CharList = (props) => {
         </li>
       );
     });
-
     return <ul className="char__grid">{items}</ul>;
   }
 

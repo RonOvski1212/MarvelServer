@@ -8,7 +8,6 @@ import mjolnir from "../../resources/img/mjolnir.png";
 
 const RandomChar = () => {
   const [char, setChar] = useState(null);
-
   const { loading, error, getCharacter, clearError } = useMarvelService();
 
   useEffect(() => {
@@ -75,11 +74,7 @@ const View = ({ char }) => {
       />
       <div className="randomchar__info">
         <p className="randomchar__name">{name}</p>
-        <p className="randomchar__descr">
-          {description
-            ? description.slice(0, 230) + "..."
-            : "Description not found"}
-        </p>
+        <p className="randomchar__descr">{description}</p>
         <div className="randomchar__btns">
           <a href={homepage} className="button button__main">
             <div className="inner">homepage</div>

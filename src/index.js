@@ -10,6 +10,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// // // cd marvel_starter // // //
-// // // npm start // // //
