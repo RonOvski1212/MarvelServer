@@ -53,6 +53,8 @@ const ComicsList = () => {
     return <ul className="comics__grid">{items}</ul>;
   }
 
+  console.log("render CharList!");
+
   const items = renderItems(comicsList);
 
   const errorMessage = error ? <ErrorMessage /> : null;
