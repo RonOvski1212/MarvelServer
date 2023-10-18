@@ -4,7 +4,7 @@ const ErrorMessage = () => {
   return (
     <img
       style={{
-        diplay: "block",
+        display: "block",
         width: "250px",
         height: "250px",
         objectFit: "contain",
